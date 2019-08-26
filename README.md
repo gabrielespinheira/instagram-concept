@@ -1,40 +1,37 @@
 # Instagram
+Instagram Concept, utilizando NodeJs, ReactJs, React Native e MongoDB
 
-Conceito baseado no layout do Instagram, listando publicações realtime (multiplataforma)
+![Instagram Preview](https://i.imgur.com/uelEhiy.jpg)
 
-**Author: [Gabriel Araujo](https://github.com/ogabrielaraujo)**
+### Tecnologias
+- [x] [NodeJs](https://nodejs.org/en/)
+- [x] [ReactJs](https://github.com/reactjs/reactjs.org)
+- [x] [React Native](https://github.com/facebook/react-native)
+- [x] [Mongodb](https://www.mongodb.com/)
+- [x] [Axios](https://github.com/axios/axios)
+- [x] [socket.io](https://github.com/socketio/socket.io)
+- [x] [express](https://github.com/expressjs/express)
 
-## Tecnologias
+### Recursos
+- [x] API NodeJs com cadastro e listagem de Posts/Likes
+- [x] Layout conceito baseado no Instagram Web, utilizando ReactJs, Axios e Sockets para listagem dos posts realtime.
+- [x] Upload de fotos e informações
+- [x] Aplicativo Android e IOS, utilizando React Native, Axios e Sockets
+- [x] Banco de dados NoSQL (MongoDB)
 
-- NodeJs (back-end)
+### Tutorial
 
-API [NodeJs](https://nodejs.org/en) com cadastro e listagem de Posts/Likes, utilizando o framework [Express](https://expressjs.com/pt-br) e [Sockets](https://socket.io).
-
-- ReactJs (front-end)
-
-Layout conceito baseado no Instagram Web, utilizando [ReactJs](https://pt-br.reactjs.org/), [Axios](https://github.com/axios/axios) e [Sockets](https://github.com/socketio/socket.io-client) para listagem dos posts realtime.
-
-- React Native (mobile)
-
-Aplicativo Android e IOS, utilizando [React Native](https://facebook.github.io/react-native), [Axios](https://github.com/axios/axios), [Sockets](https://github.com/socketio/socket.io-client) e [React Navigation](https://reactnavigation.org/) para criação das rotas.
-
-- MongoDB (database)
-
-Banco de dados NoSQL - [MongoDB](https://mongoosejs.com).
-
-## Tutorial
-
-### back-end
+**back-end**
 1. ```cd backend```
 2. ```yarn install```
 3. ```yarn dev```
 
-### front-end
+**front-end**
 1. ```cd frontend```
 2. ```yarn install```
 3. ```yarn start```
 
-### mobile
+**mobile**
 1. ```cd mobile```
 2. ```yarn install```
 3. ```react-native run-android```
