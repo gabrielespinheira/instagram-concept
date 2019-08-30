@@ -1,5 +1,5 @@
 # Instagram
-Instagram Concept, utilizando NodeJs, ReactJs, React Native e MongoDB
+Instagram Concept - utilizando NodeJs, ReactJs, React Native e MongoDB
 
 ![Instagram Preview](https://i.imgur.com/uelEhiy.jpg)
 
