@@ -1,12 +1,22 @@
 {
   "name": "instagram",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "up": "pm2 start src/index.js --name instagram_node",
+    "down": "pm2 del instagram_node"
   },
-  "repository": "git@github.com:ogabrielaraujo/instagram.git",
-  "author": "Gabriel Araujo <gabriiel66@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogabrielaraujo/agenda.git"
+  },
+  "author": {
+    "name": "Gabriel Araujo",
+    "email": "gabriiel66@gmail.com",
+    "url": "http://ogabrielaraujo.com.br"
+  },
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",

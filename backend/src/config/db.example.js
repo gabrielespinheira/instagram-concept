@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 // mongodb atlas
 const db = mongoose.connect('', {
-	useNewUrlParser: true,
-});
+  useNewUrlParser: true,
+})
 
-module.exports = db;
+module.exports = db
