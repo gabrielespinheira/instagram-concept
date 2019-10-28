@@ -1,6 +1,5 @@
 # project
 /backend/uploads
-/backend/src/config/db.js
 
 # package
 node_modules
