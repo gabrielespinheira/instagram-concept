@@ -1,9 +1,19 @@
 {
   "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogabrielaraujo/agenda.git"
+  },
+  "author": {
+    "name": "Gabriel Araujo",
+    "email": "gabriiel66@gmail.com",
+    "url": "https://ogabrielaraujo.com.br"
+  },
   "dependencies": {
     "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -14,7 +24,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "up": "pm2 start npm --name instagram_react -- start",
+    "up:dev": "pm2 start node_modules/react-scripts/scripts/start.js --name instagram_react",
+    "down": "pm2 del instagram_react"
   },
   "eslintConfig": {
     "extends": "react-app"
