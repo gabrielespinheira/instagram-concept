@@ -6,7 +6,7 @@ node_modules
 yarn.lock
 package-lock.json
 .env
-/web/build
+/frontend/build
 tmp
 *.sqlite
 
