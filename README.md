@@ -1,6 +1,10 @@
-# Instagram
+<h1 align="center">
+  <img src="https://svgur.com/i/KQM.svg" alt="Instagram" width="200">
+</h1>
 
+<p align="center">
 Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Instagram, onde tive a oportunidade de aprofundar meus conhecimentos de NodeJS, React e React Native além de implementar Web Sockets, fazendo uma aplicação realtime.
+</p>
 
 ![Instagram Preview](https://i.imgur.com/uelEhiy.jpg)
 
@@ -25,7 +29,7 @@ Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Insta
 
 ## O que aprendi?
 
-- [x] Utilizar Express para criar API com NodeJS
+- [x] Utilizar Express para criar APIs leves e performáticas com NodeJS
 - [x] Criar interfaces Realtime com Web Sockets
 - [x] Aprofondei meus conhecimentos em React Native
 
