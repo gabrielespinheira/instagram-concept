@@ -1,8 +1,6 @@
 # Instagram
 
-Instagram Concept - utilizando NodeJs, ReactJs, React Native e MongoDB
-
-[ACESSAR DEMO](https://instagram.ogabrielaraujo.com.br)
+Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Instagram, onde tive a oportunidade de aprofundar meus conhecimentos de NodeJS, React e React Native além de implementar Web Sockets, fazendo uma aplicação realtime.
 
 ![Instagram Preview](https://i.imgur.com/uelEhiy.jpg)
 
@@ -16,12 +14,13 @@ Instagram Concept - utilizando NodeJs, ReactJs, React Native e MongoDB
 - [x] [socket.io](https://github.com/socketio/socket.io)
 - [x] [express](https://github.com/expressjs/express)
 
-### Recursos
+### Features
 
 - [x] API NodeJs com cadastro e listagem de Posts/Likes
-- [x] Layout conceito baseado no Instagram Web, utilizando ReactJs, Axios e Sockets para listagem dos posts realtime.
+- [x] Layout conceito baseado no Instagram Web, utilizando ReactJs
+- [x] Axios e Web Socket para listagem dos posts realtime.
 - [x] Upload de fotos e informações
-- [x] Aplicativo Android e IOS, utilizando React Native, Axios e Sockets
+- [x] Aplicativo Android e IOS, utilizando React Native
 - [x] Banco de dados NoSQL (MongoDB)
 
 ### Tutorial
