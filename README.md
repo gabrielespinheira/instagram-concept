@@ -4,7 +4,7 @@ Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Insta
 
 ![Instagram Preview](https://i.imgur.com/uelEhiy.jpg)
 
-### Tecnologias
+## Tecnologias
 
 - [x] [NodeJs](https://nodejs.org/en/)
 - [x] [ReactJs](https://github.com/reactjs/reactjs.org)
@@ -14,7 +14,7 @@ Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Insta
 - [x] [socket.io](https://github.com/socketio/socket.io)
 - [x] [express](https://github.com/expressjs/express)
 
-### Features
+## Features
 
 - [x] API NodeJs com cadastro e listagem de Posts/Likes
 - [x] Layout conceito baseado no Instagram Web, utilizando ReactJs
@@ -23,9 +23,15 @@ Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Insta
 - [x] Aplicativo Android e IOS, utilizando React Native
 - [x] Banco de dados NoSQL (MongoDB)
 
-### Tutorial
+## O que aprendi?
 
-**back-end**
+- [x] Utilizar Express para criar API com NodeJS
+- [x] Criar interfaces Realtime com Web Sockets
+- [x] Aprofondei meus conhecimentos em React Native
+
+## Tutorial
+
+**API**
 
 1. `cd backend`
 2. `yarn install`
@@ -33,7 +39,7 @@ Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Insta
 4. `nano .env`
 5. `yarn start`
 
-**front-end**
+**Web**
 
 1. `cd frontend`
 2. `yarn install`
@@ -41,7 +47,7 @@ Aplicação multiplataforma (API, Web, iOS e Android) baseada no layout do Insta
 4. `nano .env`
 5. `yarn start`
 
-**mobile**
+**Mobile**
 
 1. `cd mobile`
 2. `yarn install`
